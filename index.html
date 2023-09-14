@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <title>Shorts Summary</title>
+    </head>
+    <body>
+        <div id="app">
+            <img src="./assets/logo.svg" alt="Logo">
+            <h1>Shorts Summary</h1>
+
+            <form id="form">
+                <input type="url" id="url" placeholder="URL do vídeo">
+                <button title="resumir">
+                    <i class="ph ph-play"></i>
+                </button>
+            </form>
+
+            <h2>Resumo</h2>
+            <p id="content" class="placeholder">Um short para resumir</p>
+        </div>
+        <script type="module" src="./web/main.js"></script>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    </body>
+</html>
